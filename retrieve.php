@@ -10,10 +10,10 @@ while($row = mysqli_fetch_row($get_data)) {
 
     // print table rows inside table element
     echo "<tr>";
-    echo "<tr>" . $row[1] . "</td>";
-    echo "<tr>" . $row[2] . "</td>";
-    echo "<tr>" . $row[3] . "</td>";
-    echo "<tr>" . $row[4] . "</td>";
+    echo "<td>" . $row[1] . "</td>";
+    echo "<td>" . $row[2] . "</td>";
+    echo "<td>" . $row[3] . "</td>";
+    echo "<td>" . $row[4] . "</td>";
     echo "<td><a href='edit.php?id=" . $row[0] . "'>Edit</a> <a href='delete.php?id=" . $row[0] . "'>Delete</a></td>";
     echo "</tr>";
 }
