@@ -34,6 +34,7 @@
         <tbody>
         <?php
             include("retrieve.php");
+            
                ?>
         </tbody>
     </table>
